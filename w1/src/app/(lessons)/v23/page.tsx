@@ -24,11 +24,15 @@ export default function Tws() {
         EX24: DarkMode
       </h1>
       <div className="bg-zinc-200">
-      <p className="tracking-widest text-center text-2xl font-extrabold text-transparent italic bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text">
-        Actual Work start here
-      </p>
+        <p className="tracking-widest text-center text-2xl font-extrabold hover:text-transparent duration-150 italic bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text">
+          Actual Work start here
+        </p>
       </div>
-
+      <div className="container max-auto mt-10 bg-white dark:bg-slate-900 rounder-xl px-6 py-8 shadow xl">
+        <h3 className="text-slate-900 dark:text-white font-medium tracking-tight">
+          Lorem ipsum dolor sit.
+        </h3>
+      </div>
     </main>
   );
 }
