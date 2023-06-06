@@ -47,10 +47,11 @@ export default function Tws() {
           Transform
         </button>
       </div>
-      Applying Above Transforms to the image below - This also has transforms and  transitions 
-      have a look at the tailwindcss files for getting to know all
+      Applying Above Transforms to the image below - This also has transforms
+      and transitions have a look at the tailwindcss files for getting to know
+      all
       <Image
-        className="mx-auto hover:rotate-180 hover:scale-75 hover:skew-x-12 transition-transform duration-1000"
+        className="mx-auto hover:rotate-180 hover:scale-75 hover:skew-x-12 transition duration-2000"
         src={require("../components/img/img1.jpg")}
         alt="img1"
         width={300}
