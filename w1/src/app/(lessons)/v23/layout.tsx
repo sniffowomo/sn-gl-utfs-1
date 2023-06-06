@@ -29,7 +29,7 @@ const kanit = Kanit({
 const orbit = Orbitron({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "18:DarMode",
+  title: "23:DarkMode Work",
   description: "LUDTWSC",
 };
 
