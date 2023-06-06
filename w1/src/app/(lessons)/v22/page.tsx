@@ -2,11 +2,9 @@
  * This page is going to be all the work for the tailwind sandbox
  */
 
-import Showi from "../components/shb"
-import Image from "next/image"
-import Circ from "./components/csvg"
-
-
+import Showi from "../components/shb";
+import Image from "next/image";
+import Circ from "./components/csvg";
 
 export default function Tws() {
   return (
@@ -22,26 +20,23 @@ export default function Tws() {
       {/**============================Actual code below======================================= */}
       {/**============================Actual code below======================================= */}
       {/**============================Actual code below=====bvc ================================== */}
-    
+
       <h1 className="  flex justify-center bg-slate-500- pb-2 pt-2 text-lg font-extrabold p-5 ">
-        SVG Animation 
+        SVG Animation
       </h1>
-      
+
       <Circ />
 
+      <h1 className="  flex justify-center bg-slate-500 pb-4 pt-2 text-lg font-extrabold p-5 ">
+        Custom Animations
+      </h1>
 
-
-
-   
-  
-
-
-
+      
 
       {/**============================Actual code below======================================= */}
       {/**============================Actual code below======================================= */}
       {/**============================Actual code below======================================= */}
       {/**============================Actual code below=====bvc ================================== */}
     </main>
-  )
+  );
 }
