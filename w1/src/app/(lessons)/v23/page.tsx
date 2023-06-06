@@ -3,8 +3,7 @@
  */
 
 import Showi from "../components/shb";
-import Image from "next/image";
-import Circ from "./components/csvg";
+import Tog from "./components/toggle";
 
 export default function Tws() {
   return (
@@ -40,6 +39,9 @@ export default function Tws() {
           consectetur beatae expedita, dicta sed distinctio minima animi qui
           totam ullam?
         </p>
+      </div>
+      <div>
+        <Tog />
       </div>
     </main>
   );
