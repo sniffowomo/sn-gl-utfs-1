@@ -1,0 +1,14 @@
+Convert his bastard 
+
+<h1></h1>
+<script>
+
+function showBrowserWidth() {
+    const width = window.innerWidth
+    document.querySelector(`h1`).innertext = `Width: ${width}px`
+}
+
+window.onload = showBrowserWidth
+window.onresize = showBrowserWidth
+
+</script>
