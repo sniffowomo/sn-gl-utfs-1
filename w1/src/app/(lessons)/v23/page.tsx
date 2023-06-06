@@ -32,6 +32,14 @@ export default function Tws() {
         <h3 className="text-slate-900 dark:text-white font-medium tracking-tight">
           Lorem ipsum dolor sit.
         </h3>
+        <p className="text-late-500 dark:text-slate-400 mt-2 text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laborum,
+          molestiae quia, quae praesentium amet, ipsa eveniet quidem sapiente
+          laboriosam at repellendus aliquid ducimus vitae ex qui modi fugit.
+          Assumenda tempora enim et rerum dolorum eos voluptatum iusto est
+          consectetur beatae expedita, dicta sed distinctio minima animi qui
+          totam ullam?
+        </p>
       </div>
     </main>
   );
